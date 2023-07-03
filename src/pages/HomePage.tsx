@@ -1,5 +1,9 @@
+import Container from "../components/Container";
+import Header from "../components/Header";
 export const HomePage = () => {
 	return (
-		<div>Hello world from HomePage!</div>
+		<Container>
+			<Header />
+		</Container>
 	);
 }
