@@ -9,6 +9,7 @@ import GamePage from './pages/GamePage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import FriendsPage from './pages/FriendsPage';
 import ProfilePage from './pages/ProfilePage';
+import UsersPage from './pages/Users';
 
 function App() {
 	console.log(process.env.REACT_APP_API_KEY);
@@ -17,6 +18,7 @@ function App() {
 			<Routes>
 				<Route path='/'  element={<LoginPage />}/>
 				<Route path="/home" element={<HomePage />} />
+				<Route path="/users" element={<UsersPage />} />
 				<Route path="/chat" element={<ChatPage />} />
 				<Route path="/game" element={<GamePage />} />
 				<Route path="/leaderboard" element={<LeaderboardPage />} />
