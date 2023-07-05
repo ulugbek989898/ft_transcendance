@@ -1,5 +1,6 @@
 import "../styles/Header.style.css";
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../images/logo.png';
 
 export default function  Header() {
 	const listHeader: string[] = ["home", "chat", "game", "leaderboard", "friends", "profile"];
@@ -7,7 +8,7 @@ export default function  Header() {
 	console.log(location);
 	return (
 	<header className="header-container">
-		<h1 className="header-title">Logo</h1>
+		<img src={logo} alt="Logo" className="logo" />
 		<nav className="header-nav">
 			<ul className="header-nav-list">
 			{
