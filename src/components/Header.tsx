@@ -8,7 +8,6 @@ import friendIcon from '../images/userIcon.png'
 export default function  Header() {
 	const listHeader: string[] = ["home", "users", "chat", "game"];
 	const location = useLocation();
-	console.log(location);
 	return (
 	<header className="header-container">
 		<nav className="header-nav">
