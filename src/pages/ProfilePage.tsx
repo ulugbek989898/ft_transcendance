@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import Header from "../components/Header";
+import HorizontalLine from "../components/HorizontalLine";
 import PersonalInfo from "../components/PersonalInfo";
 
 export default function ProfilePage() {
@@ -8,6 +9,7 @@ export default function ProfilePage() {
 			<>
 				<Header />
 				<PersonalInfo />
+				<HorizontalLine />
 			</>
 		</Container>
 	)
