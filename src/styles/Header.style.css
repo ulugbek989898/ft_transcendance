@@ -61,4 +61,9 @@
 
   .icon {
 	width: 25px;
+	padding-top: 4px;
+  }
+
+  .game-icon {
+	width: 32px;
   }

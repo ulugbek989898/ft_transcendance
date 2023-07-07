@@ -31,19 +31,19 @@ export default function  Header() {
 		<nav className="header-nav">
 			<ul className="header-nav-list">
 				<li className="header-nav-item">
-					<img src={friendIcon} alt="user" className="icon" />
+					<img src={friendIcon} alt="user" className="user-icon icon" />
 				</li>
 				<li className="header-nav-item">
-					<img src={chatIcon} alt="chat" className="icon" />
+					<img src={chatIcon} alt="chat" className="chat-icon icon" />
 				</li>
 				<li className="header-nav-item">
-					<img src={gameIcon} alt="game" className="icon" />
+					<img src={gameIcon} alt="game" className="game-icon" />
 				</li>
 				<li className="header-nav-item">
 					<Link
 					to={"/profile"}
 					className={(location.pathname === ("/profile")) ? "header-nav-link active" : "header-nav-link"} >
-						Profile
+						PROFILE
 					</Link>
 				</li>
 				
