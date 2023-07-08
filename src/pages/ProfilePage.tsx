@@ -10,7 +10,7 @@ export default function ProfilePage() {
 			<>
 				<Header />
 				<PersonalInfo />
-				{/* <HorizontalLine /> */}
+				<HorizontalLine />
 				<Tabs />
 			</>
 		</Container>
